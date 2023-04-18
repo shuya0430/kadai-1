@@ -1,0 +1,145 @@
+header{
+  height: 50px;
+  background-color: #FF9A4B;
+}
+
+main{
+  width: 960px;
+  margin: 50px auto;
+  display: flex;
+}
+
+.box1{
+  width: 300px;
+  background-color: #EEEEEE;
+  padding: 10px;
+  position: relative;
+}
+
+.box-image1{
+  height: 150px;
+  background-image: url(img3/flow01.png);
+  background-position: bottom;
+  background-size: cover;
+}
+
+.box2{
+  width: 300px;
+  background-color: #EEEEEE;
+  padding: 10px;
+  margin-left: 30px;
+  position: relative;
+}
+
+.box-image2{
+  height: 150px;
+  background-image: url(img3/flow02.png);
+  background-position: bottom;
+  background-size: cover;
+}
+
+.box3{
+  width: 300px;
+  background-color: #EEEEEE;
+  padding: 10px;
+  margin-left: 30px;
+  position: relative;
+}
+
+.box-image3{
+  height: 150px;
+  background-image: url(img3/flow03.png);
+  background-position: bottom;
+  background-size: cover;
+}
+
+h3{
+  margin: 15px 0 5px;
+}
+
+.step{
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: #ff9a4b;
+  color: #fff;
+}
+
+footer{
+  height: 50px;
+  background-color: #AAAAAA
+}
+
+@media screen and (max-width:768px){
+  header {
+    width: 100%;
+  }
+
+  main{
+    width: 100%;
+    margin: 50px auto;
+    display: block;
+  }
+
+  .box1{
+  width: 90%;
+  background-color: #EEEEEE;
+  padding: 10px;
+  position: relative;
+  margin: 0 auto;
+  }
+
+  .box-image1{
+  height: 150px;
+  background-image: url(img3/flow01.png);
+  background-position: bottom;
+  background-size: cover;
+}
+
+.box2{
+  width: 90%;
+  background-color: #EEEEEE;
+  padding: 10px;
+  position: relative;
+  margin: 20px auto;
+}
+
+.box-image2{
+  height: 150px;
+  background-image: url(img3/flow02.png);
+  background-position: bottom;
+  background-size: cover;
+}
+
+.box3{
+  width: 90%;
+  background-color: #EEEEEE;
+  padding: 10px;
+  position: relative;
+  margin: 0 auto;
+}
+
+.box-image3{
+  height: 150px;
+  background-image: url(img3/flow03.png);
+  background-position: bottom;
+  background-size: cover;
+}
+
+h3{
+  margin: 15px 0 5px;
+}
+
+.step{
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: #ff9a4b;
+  color: #fff;
+}
+
+footer{
+  height: 50px;
+  background-color: #AAAAAA
+}
+}
